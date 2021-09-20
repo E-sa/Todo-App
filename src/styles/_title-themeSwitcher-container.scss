@@ -23,11 +23,11 @@
     .sun-moon-div {
         position: relative;
         z-index: 6;
-        background-image: url("../pictures/icon-moon.svg");
+        background-image: url("../pictures/icon-sun.svg");
         background-repeat: no-repeat;
     }
 
     #toggle:checked ~ .sun-moon-div {
-        background-image: url("../pictures/icon-sun.svg");
+        background-image: url("../pictures/icon-moon.svg");
     }
 }
