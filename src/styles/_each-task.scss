@@ -41,7 +41,7 @@ ul {
         }
 
         .regular-checkbox:checked:after {
-            content: "\2714";
+            content: "\2714 \fe0e";
             color: #fff;
             position: absolute;
         }
