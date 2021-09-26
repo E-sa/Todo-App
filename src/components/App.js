@@ -34,6 +34,7 @@ class App extends React.Component {
 
     render() {
         return (
+            <main>
             <div className="container">
 
                 <ThemeProvider theme={this.state.theme}>
@@ -51,6 +52,7 @@ class App extends React.Component {
 
                 </ThemeProvider>
             </div>
+</main>
         );
     }
 }
