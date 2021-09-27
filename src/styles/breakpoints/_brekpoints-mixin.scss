@@ -16,6 +16,8 @@
     $crossLineHeight,
     $checkmarkLeft,
     $checkmarkTop,
+    $inputCircleLeft,
+    $inputCircleTop,
     
 ) {
     #create-todo-input {
@@ -41,7 +43,6 @@
 
     .li-cross-mark {
         @include width-height($checkmark-cross-moonSun-size, $checkmark-cross-moonSun-size);
-        
     }
 
     .li-cross-mark:after {
@@ -66,12 +67,16 @@
         background-size: $checkmark-cross-moonSun-size;
     }
 
+    #create-todo-label {
+        @include width-height($checkmark-cross-moonSun-size, $checkmark-cross-moonSun-size);
+        top: $inputCircleTop;
+        left: $inputCircleLeft;
+    }
+
     [id^="last-li"] {
         font-size: $lastLiFontSize;
         span {
             margin-left: $last-li-span-margin;
         }
     }
-
-
 }
