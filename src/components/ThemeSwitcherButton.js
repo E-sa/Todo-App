@@ -6,14 +6,14 @@ function ThemeSwitcherButton({ onChangeTheme }) {
 
     <div id="sun-moon-container">
 
-      <label for="toggle">
+      <label for="toggle"> </label>
         <input
           className="sun-moon-checkbox"
           type="checkbox"
           onClick={() => onChangeTheme("clicked")}
           id="toggle"
         />
-      </label>
+      
 
       <div className="sun-moon-div"></div>
     </div>
