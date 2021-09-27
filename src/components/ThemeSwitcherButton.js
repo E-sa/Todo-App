@@ -6,7 +6,7 @@ function ThemeSwitcherButton({ onChangeTheme }) {
 
     <div id="sun-moon-container">
 
-      <label for="toggle">kk
+      <label for="toggle">
         <input
           className="sun-moon-checkbox"
           type="checkbox"
