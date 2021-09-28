@@ -4,8 +4,8 @@ import react from "react";
 function LastLiBigScreen({ itemsleft, filter, changeFilter, clear }) {
     return (
         <li className="each-task" id="last-li-b">
-            <div id="items-left">{itemsleft} items left</div>
-            <div id="filters-span-l">
+            <span id="items-left">{itemsleft} items left</span>
+            <span id="filters-span-l">
                 <span
                     className={[filter === "all" ? 'activeFilter' : ""]}
                     id="all"
@@ -30,8 +30,8 @@ function LastLiBigScreen({ itemsleft, filter, changeFilter, clear }) {
                     Completed
                 </span>
                 
-            </div>
-            <div id="clear" onClick={clear}> Clear Completed</div>
+            </span>
+            <span id="clear" onClick={clear}> Clear Completed</span>
         </li>
     )
 
