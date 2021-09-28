@@ -3,7 +3,7 @@ import react from "react";
 function LastLiSmallScreen({ filter, changeFilter }) {
 
     return (
-        <div id="filters-span-s">
+        <span id="filters-span-s">
             <li className="each-task" id="last-li-s">
 
                 <span
@@ -30,7 +30,7 @@ function LastLiSmallScreen({ filter, changeFilter }) {
                     Completed
                 </span>
             </li>
-        </div>
+        </span>
     )
 
 }
