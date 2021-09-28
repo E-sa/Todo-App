@@ -98,7 +98,7 @@ class TaskManager extends React.Component {
                 {/* "creates a new todo" */}
                 <AddTaskInput newTaskSubmit={this.newTaskSubmit} />
 
-                <ol id="li-container">
+                <ul id="li-container">
 
                     {/* map all */}
                     {filter === "all" && task.map((task, index) =>
@@ -154,7 +154,7 @@ class TaskManager extends React.Component {
                     />
 
 
-                </ol>
+                </ul>
             </div>
 
         )
