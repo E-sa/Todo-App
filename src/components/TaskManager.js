@@ -8,16 +8,8 @@ class TaskManager extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-             tasks: 
-            [
-                ["Complete online javascript corse",true],
-                ["Jog around the park 3x", false],
-                ["10 minutes meditation", false],
-                ["Complete Todo App on Frontend Mentor", false],
-                ["Read for 1 hour", false],
-                ["Pick up groceries", false],    
-            ],
-            itemsleft: 5,
+             tasks: [],
+            itemsleft: 0,
             //(All, Active, completed)
             filter: "all"
         };
