@@ -4,7 +4,7 @@ function LastLiSmallScreen({ filter, changeFilter }) {
 
     return (
         <li id="filters-span-s">
-            <li className="each-task" id="last-li-s">
+            <div className="each-task" id="last-li-s">
 
                 <span
                     className={[filter === "all" ? 'activeFilter all' : "all"]}
@@ -29,7 +29,7 @@ function LastLiSmallScreen({ filter, changeFilter }) {
                 >
                     Completed
                 </span>
-            </li>
+            </div>
         </li>
     )
 
