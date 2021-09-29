@@ -40,7 +40,7 @@ class AddTaskInput extends React.Component {
         return (
             <>
             
-            <label id="create-todo-label" for="create-todo-input"> </label>
+            <label id="create-todo-label" htmlFor="create-todo-input"> </label>
             <input
                 value={this.state.inputValue}
                 id="create-todo-input"
