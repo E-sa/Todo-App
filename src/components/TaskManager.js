@@ -77,13 +77,21 @@ class TaskManager extends React.Component {
         })
     }
 
-    //5.clear 
+    //5.clear completed
     clear = () => {
 
-        this.setState({
-            tasks: [],
-            itemsleft: 0
-        })
+        const tasks = this.state.tasks;
+        const newArr = [];
+
+        tasks.filter(name => name[1] === false).map((task) =>
+
+            newArr.push([task, false])
+
+        )
+
+        this.setState(({
+            tasks: newArr
+        }))
 
     }
 
