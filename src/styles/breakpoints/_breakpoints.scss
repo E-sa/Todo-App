@@ -49,6 +49,9 @@
       }
     }
   }
+    #li-container .each-task p {
+    line-height: inherit;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -99,6 +102,9 @@
         margin-left: 20px;
       }
     }
+  }
+    #li-container .each-task p {
+    line-height: inherit;
   }
 }
 
