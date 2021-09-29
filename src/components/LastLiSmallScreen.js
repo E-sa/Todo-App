@@ -1,5 +1,3 @@
-import react from "react";
-
 function LastLiSmallScreen({ filter, changeFilter }) {
 
     return (
