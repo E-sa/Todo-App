@@ -17,7 +17,7 @@ class TaskManager extends React.Component {
                 ["Read for 1 hour", false],
                 ["Pick up groceries", false],    
             ],
-            itemsleft: 0,
+            itemsleft: 5,
             //(All, Active, completed)
             filter: "all"
         };
