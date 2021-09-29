@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [CLick](https://todo-app-eight-khaki.vercel.app/)
-- Checkbox pen : [pen] (https://codepen.io/e-sa/pen/MWoaqxE)
+- Live Site URL: [vercel](https://todo-app-eight-khaki.vercel.app/)
+- Checkbox pen : [pen](https://codepen.io/e-sa/pen/MWoaqxE)
 
 ## My process
 
