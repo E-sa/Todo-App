@@ -4,7 +4,7 @@
 @media only screen and (max-width: 370px) {
   @include brekpoints-mixin(
     // $fontSize,
-    15px,
+    10px,
     // $checkMarkFontSize,
     15px,
     // $crossFontSize,
@@ -106,7 +106,7 @@
 @media only screen and (min-width: 768px) {
   @include brekpoints-mixin(
     // $fontSize,
-    25px,
+    20px,
     // $checkMarkFontSize,
     20px,
     // $crossFontSize,
@@ -122,7 +122,7 @@
     // $checkmark-cross-moonSun-size
     30px,
     //last-li-span-margin
-    15px,
+    10px,
     //cross line height
     50px,
     // checkmarkLeft,
